@@ -1,3 +1,7 @@
-# HTML Resume Template
+# HTML Resume Templates
 
-Simple HTML resume template using Bootstrap
+Simple HTML resume templates
+
+index.html uses Bootstrap for responsive design
+
+resume.html uses CSS Flexbox and is meant to be printed to PDF for 8.5in x 11in
