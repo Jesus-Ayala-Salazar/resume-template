@@ -1,6 +1,6 @@
 # HTML Resume Templates
 
-Simple HTML resume templates
+Simple HTML resume templates for learning Bootstrap and Flexbox
 
 index.html uses Bootstrap for responsive design
 
