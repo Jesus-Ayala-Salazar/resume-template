@@ -9,29 +9,73 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: .75em;
 }
 
-.flex-container {
+p, h3, h4, h5 {
+  margin: 0;
+}
+
+/* Main header and section header */
+.header {
+  margin-bottom: .5em;
   padding: 1em;
   display: flex; /* or inline-flex */
   background-color: hsl(171, 100%, 96%);
   align-items: center;
 }
 
+/* Main header left section - flex item */
+.title {
+  flex-grow: 2;
+}
+
+/* Main header right section - flex item*/
+.contact-info {
+  text-align: right;
+  flex-grow: 1;
+}
+
+/* Main header */
 .title > h1, .title > h2{
   margin: 0;
-  flex-grow: 2;
 }
 
 .title > h1 {
   color: hsl(171, 100%, 29%);
 }
 
-.contact-info {
-  text-align: right;
-  flex-grow: 1;
+/* Section headers */
+.header > h2 {
+  margin: 0;
+  color: hsl(171, 100%, 29%);
 }
 
+/* Flex container for main content and dates */
+.content-container {
+  margin: 0;
+  padding: .5em 1em .5em 1em;
+  display: flex;
+}
+
+/* Main content subsection - flex item*/
+.content-column {
+  flex-grow: 6;
+  flex-basis: 0;
+}
+
+/* Dates subsection - flex item*/
+.dates-column {
+  flex-grow: 1;
+  text-align: right;
+}
+
+/* Job titles */
+.content-column > h4 {
+  color: hsl(171, 100%, 29%);
+}
+
+/* Remove hyperlink color */
 a {
   color: inherit;
   text-decoration: none;
