@@ -9,17 +9,21 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: .75em;
+  font-size: .65em;
 }
 
 p, h3, h4, h5 {
   margin: 0;
 }
 
-/* Main header and section header */
+ul {
+  margin: .2em 0 .2em 0;
+}
+
+/* Main header and section headers */
 .header {
   margin-bottom: .5em;
-  padding: 1em;
+  padding: .6em;
   display: flex; /* or inline-flex */
   background-color: hsl(171, 100%, 96%);
   align-items: center;
@@ -54,7 +58,7 @@ p, h3, h4, h5 {
 /* Flex container for main content and dates */
 .content-container {
   margin: 0;
-  padding: .5em 1em .5em 1em;
+  padding: .4em 1em .4em 1em;
   display: flex;
 }
 
@@ -73,6 +77,11 @@ p, h3, h4, h5 {
 /* Job titles */
 .content-column > h4 {
   color: hsl(171, 100%, 29%);
+}
+
+/* Scientific Publications */
+.pubs {
+  font-size: .76em;
 }
 
 /* Remove hyperlink color */
